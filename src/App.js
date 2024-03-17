@@ -1,7 +1,7 @@
 import React from "react";
 
-import MyRoutes from "./routes/MyRoutes";
 import Footer from "./components/Footer/Footer";
+import MyRoutes from "./routes/MyRoutes";
 
 const App = () => {
   return (
