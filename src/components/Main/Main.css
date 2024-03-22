@@ -1,0 +1,100 @@
+/* FeaturedChallenges.css */
+.featured-challenges {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.featured-challenges h2 {
+  color: #f3efef;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.featured-challenges .challenge {
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.featured-challenges .challenge h3 {
+  color: #f9fbfd;
+  margin-bottom: 5px;
+}
+
+.featured-challenges .challenge p {
+  color: #faf7f7;
+}
+
+.recent-activity {
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.recent-activity h2 {
+  color: #f7f7f7;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.activity-text {
+  color: #f5f3f3 !important;
+  font-size: 1.4rem !important;
+}
+
+.recent-activity li {
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.recent-activity li span {
+  font-weight: bold;
+  color: #f6f7f8;
+}
+
+.recent-activity li span.action {
+  color: #28a745;
+}
+
+.recent-activity li span.timestamp {
+  color: #6c757d;
+}
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+  grid-gap: 20px; /* Gap between grid items */
+}
+/* Main.css */
+.featured-challenges {
+  text-align: center; /* Center the image horizontally */
+}
+
+.challenge-image {
+  width: 450px; /* Set the width of the container */
+  height: 450px; /* Set the height of the container */
+  overflow: hidden; /* Hide any overflow if the image is larger than the container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.challenge-image img {
+  width: 100%; /* Make the image fill the container width */
+  height: auto; /* Maintain the aspect ratio */
+}
+.regbtn {
+  margin-top: 20px;
+}
+
+.regbtnchallenge {
+  padding: 10px 20px;
+  background-color: #2e0b5c;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.regbtnchallenge:hover {
+  background-color: #3e2883;
+}
